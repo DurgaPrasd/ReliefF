@@ -44,6 +44,9 @@ class ReliefF(object):
             The number of neighbors to consider when assigning feature
             importance scores.
             More neighbors results in more accurate scores, but takes longer.
+        n_features_to_keep: int (default: 10)
+            The number of top features (according to the ReliefF score) to retain after
+            feature selection is applied.
 
         Returns
         -------
